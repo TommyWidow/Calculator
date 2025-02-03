@@ -1,6 +1,7 @@
 # Calculator
 
-Простой калькулятор с основными математическими операциями.
+Незамысловатый калькулятор с основными математическими операциями. 
+Числа вводим через пробел) 
 
 ## Методы:
 - **Addition**: Сложение
@@ -21,3 +22,4 @@ Console.WriteLine(MathOperation.Devide(10, 5));    // 2
 Console.WriteLine(MathOperation.Max(10, 5));       // 10
 Console.WriteLine(MathOperation.Min(10, 5));       // 5
 Console.WriteLine(MathOperation.Abs(-10));         // 10
+```
