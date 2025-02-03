@@ -19,6 +19,9 @@ class Calculator
         Console.WriteLine($"Result of Max: {MathOperation.Max(a, b)}");
         Console.WriteLine($"Minimum number of a and b: {MathOperation.Min(a, b)}");
         Console.WriteLine($"Abs a: {MathOperation.Abs(a)}");
+        Console.WriteLine(" ");
+        Console.WriteLine(" ");
+        Console.WriteLine(" ");
         Console.WriteLine("\n\n\n\tThis app was created by TommyWindows.");
     }
 }
