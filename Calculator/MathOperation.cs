@@ -34,10 +34,11 @@ namespace MathTools
             return a < b ? a : b;
         }
 
-        public static double Abs(double a)
+        public static (double, double) Abs(double a, double b)
         {
-            return a < 0 ? -a : a;
+            return (a < 0 ? -a : a, b < 0 ? -b : b);
         }
+
     }
 }
 
